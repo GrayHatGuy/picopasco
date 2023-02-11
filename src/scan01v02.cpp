@@ -1,9 +1,8 @@
 /* picoponic 
- *  Central sensor monitor and control firmware for an economical and scalable hydroponic system.
+ *  Sensor monitor and control firmware for an economical and scalable hydroponic system using an RP2040 pico and standard off the shelf sensors and components.
  *  
  *  Reads air temp, humidity, VOC, CO2, Soil H2O, TDS, EC, and water temp.
- *  Sensor metrics will eventually be used as a feed forward mechanism for closed loop 
- *  control of lighting, mixing, irrigation, and air quality/HVAC.  
+ *  Intended use for sensor metrics as a feed forward mechanism for closed loop control of lighting, water, and air quality. 
  *  
  *  additional libraries required for a successfull build:
  *  https://github.com/Seeed-Studio/SGP30_Gas_Sensor
