@@ -17,7 +17,7 @@ Sensor monitor and control firmware for an economical and scalable hydroponic sy
  *  [Grove SGP30 VOC/CO2](https://www.seeedstudio.com/Grove-VOC-and-eCO2-Gas-Sensor-for-Arduino-SGP30.html?queryID=f5af88e62b89603f700a72fc7083e746&objectID=127&indexName=bazaar_retailer_products)
  *  [Grove Soil Moisture](https://www.seeedstudio.com/Grove-Moisture-Sensor.html?queryID=8f8a40002a96e9bcb9aad1275f9a6cad&objectID=1678&indexName=bazaar_retailer_products)
  *  [Water quality TDS/EC](https://www.amazon.com/dp/B08DGLY3J2)
- *  [Relays 5V NO SPST - 4X bank](https://www.amazon.com/dp/B098DWS168)
+ *  [Relays 5V SPST - 4X bank](https://www.amazon.com/dp/B098DWS168)
  *  [5V Solenoid Valves](https://www.amazon.com/dp/B07WR9CSNQ)
 ## next...
  *  USe Sensor metrics as a feed forward mechanism for closed loop control of lighting, water, and air quality.  
