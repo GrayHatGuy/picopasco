@@ -1,4 +1,5 @@
 ## picoponicscan
+ *  
  *  Central sensor monitor and control firmware for an economical and scalable hydroponic system.
  *  
  *  Reads air temp, humidity, VOC, CO2, Soil H2O, TDS, EC, and water temp.
