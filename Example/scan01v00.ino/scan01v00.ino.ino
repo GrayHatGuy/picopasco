@@ -1,10 +1,24 @@
+/* picoponic 
+ *  Central sensor monitor and control firmware for an economical and scalable hydroponic system.
+ *  
+ *  Reads air temp, humidity, VOC, CO2, Soil H2O, TDS, EC, and water temp.
+ *  Sensor metrics will eventually be used as a feed forward mechanism for closed loop 
+ *  control of lighting, mixing, irrigation, and air quality/HVAC.  
+ *  
+ *  additional libraries required for a successfull build:
+ *  https://github.com/Seeed-Studio/SGP30_Gas_Sensor
+ *  https://www.arduinolibraries.info/libraries/sensirion-i2-c-sht4x
+ *      
+ *  mailto://GrayHatGuy@GrayHatGuy.com
+ */
+ 
 #include <Arduino.h>
 #include <SensirionI2CSht4x.h>
 #include <Wire.h>
 #include <SoftwareSerial.h>
 #include "sensirion_common.h"
 #include "sgp30.h"
-/*Reads all I2C and Analog sensors Temperature Humidity, Volatile Organic Chemicals, Soil Moisture, and TDS/ec.*/ 
+
 SensirionI2CSht4x sht4x;
 void setup() 
 {
@@ -20,13 +34,10 @@ void setup()
     Wire.begin();
     sht4x.begin(Wire);
     error = sht4x.serialNumber(serialNumber);
-    /*  Init module,Reset all baseline,The initialization takes up to around 15 seconds, during which
-        all APIs measuring IAQ(Indoor air quality ) output will not change.Default value is 400(ppm) for co2,0(ppb) for tvoc*/    
     while (sgp_probe() != STATUS_OK) {
         Serial.println("SGP failed");
         while (1);
     }
-    /* blocke Read H2 and Ethanol signal */
     err = sgp_measure_signals_blocking_read(&scaled_ethanol_signal,
                                             &scaled_h2_signal);
     if (err == STATUS_OK) {
@@ -34,8 +45,7 @@ void setup()
     } else {
         Serial.println("error reading signals");
     }
-    /* Set absolute humidity to 13.000 g/m^3
-    Need to calibrate humidity for application */
+    /* Set absolute humidity to 13.000 g/m^3 adjust calibration*/
     sgp_set_absolute_humidity(13000);
     err = sgp_iaq_init();
     if (error) {
@@ -47,17 +57,15 @@ void setup()
         Serial.println(serialNumber);
         Serial.println();
     }
-
   Serial.println("\nI2C Scanner");
   { 
   byte error, address;
   int nDevices;
   nDevices = 0;
   for(address = 1; address < 127; address++ ) 
-  
-    // The i2c_scanner uses the return value of
-    // the Write.endTransmisstion to see if
-    // a device did acknowledge to the address.
+/* The i2c_scanner uses the return value of
+   the Write.endTransmisstion to see if
+   a device did acknowledge to the address.*/
     Wire.beginTransmission(address);
     error = Wire.endTransmission();
     if (error == 0)
