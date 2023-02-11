@@ -52,7 +52,7 @@ bTemp = bTab[(SCOUNT - 1) / 2];
 else
 bTemp = (bTab[SCOUNT / 2] + bTab[SCOUNT / 2 - 1]) / 2;
 }
-// end getMedianNum(analogBufferTemp,SCOUNT)
+// end 
   averageVoltage =  bTemp * (float)VREF/ 1024.0; // read the analog value more stable by the median filtering algorithm, and convert to voltage value
   float compensationCoefficient=1.0+0.02*(temperaturetds-25.0); //temperature compensation formula: fFinalResult(25^C) = fFinalResult(current)/(1.0+0.02*(fTP-25.0));
   float compensationVolatge=averageVoltage/compensationCoefficient; //temperature compensation
