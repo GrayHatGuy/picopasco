@@ -20,5 +20,5 @@ Sensor monitor and control firmware for an economical and scalable hydroponic sy
  *  [Relays 5V NO SPST - 4X bank](https://www.amazon.com/dp/B098DWS168)
  *  [5V Solenoid Valves](https://www.amazon.com/dp/B07WR9CSNQ)
 ## next...
- *  Sensor metrics will eventually be used as a feed forward mechanism for closed loop control of lighting, water, and air quality.  
+ *  USe Sensor metrics as a feed forward mechanism for closed loop control of lighting, water, and air quality.  
 ## GrayHatGuy@GrayHatGuy.com
