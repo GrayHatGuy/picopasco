@@ -1,4 +1,6 @@
-## picoponic  
+## picoponic 
+![alt text](https://github.com/GrayHatGuy/picoponic/blob/a88ea1e02c0fb0f00a31a59c5aac179da8bac32d/full%20picoponicwire.png?raw=true)
+![image](https://user-images.githubusercontent.com/64990378/218593627-8e016243-36af-49fe-97d0-e47da4eef241.png)
 Sensor monitor and control firmware for an economical and scalable hydroponic system using an RP2040 pico and standard off the shelf sensors and components.
  *  air temp
  *  water temp
