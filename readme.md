@@ -9,7 +9,9 @@ Sensor monitor and control firmware for an economical and scalable hydroponic sy
  *  Soil H2O
  *  TDS
  *  EC
-![image](https://github.com/GrayHatGuy/picoponic/blob/3b26b3f80958a0715bab8153990003186d0a8a39/repo_full%20picoponicwire.png?raw=true)
+![image](https://github.com/GrayHatGuy/picoponic/blob/0f7c91f61f793c428a4101a5d96488dfcb26ee3a/repo_full%20picoponicwire.png?raw=true)
+![image](https://user-images.githubusercontent.com/64990378/218601303-2092c5be-75f7-43f5-9b6d-b4dadab1af9b.png)
+
 
 ## libs:
  *  [SGP30 Gas Sensor](https://github.com/Seeed-Studio/SGP30_Gas_Sensor)
