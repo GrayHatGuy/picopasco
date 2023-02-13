@@ -10,9 +10,6 @@ Sensor monitor and control firmware for an economical and scalable hydroponic sy
  *  TDS
  *  EC
 ![image](https://github.com/GrayHatGuy/picoponic/blob/0f7c91f61f793c428a4101a5d96488dfcb26ee3a/repo_full%20picoponicwire.png?raw=true)
-![image](https://user-images.githubusercontent.com/64990378/218601303-2092c5be-75f7-43f5-9b6d-b4dadab1af9b.png)
-
-
 ## libs:
  *  [SGP30 Gas Sensor](https://github.com/Seeed-Studio/SGP30_Gas_Sensor)
  *  [SHT4x TempRH](https://www.arduinolibraries.info/libraries/sensirion-i2-c-sht4x)
