@@ -25,4 +25,4 @@ Sensor monitor and control firmware for an economical and scalable hydroponic sy
  *  [RP2040 pico](https://www.raspberrypi.com/products/raspberry-pi-pico/)
 ## next...
  *  Use sensor metrics as a feed forward mechanism for closed loop control of lighting, water, and air quality.  
-## Intersted in contributing contact - GrayHatGuy@GrayHatGuy.com
+### If you are interested in contributing contact GrayHatGuy@GrayHatGuy.com
