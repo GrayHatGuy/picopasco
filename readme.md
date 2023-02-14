@@ -40,19 +40,18 @@ Includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors
  *  [RP2040 grove breakout](https://www.digikey.com/en/products/detail/seeed-technology-co.,-ltd/103100142/13688265)
  *  [RP2040 pico](https://www.raspberrypi.com/products/raspberry-pi-pico/)
 ## present state
- * ✅ sensor firmware
- * ✅ harware test verification
- * ✅ cartoon schematic 
+ * ✅ ~sensor firmware~
+ * ✅ ~bench verify hardware~
+ * ✅ ~wiring schematic and pinout~ 
 ## future state
- *  Backhaul 
-   *  LoRa
-   *  MQTT
-   *  WiFi
- *  GUI
-   *  status integrations
-   *  remote control
- *  Control
- *  lights
- *  hvac
- *  
+ *  Controls
+    *  PID relay control mixing(TDS) firmware
+    *  timer (lighting)
+    *  trigger (irrigation) 
+    *  PID relay control HVAC(air quality) firmware.
+ *  Connectivity
+    *  LoRa
+    *  WiFi
+    *  MQTT
+ *  GUI 
 ### _If you are interested in contributing or participating in this project contact_ GrayHatGuy@GrayHatGuy.com
