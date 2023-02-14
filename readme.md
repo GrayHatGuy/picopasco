@@ -1,6 +1,6 @@
 ## picoponic 
 
-### Sensor monitor and control firmware for an economical and scalable hydroponic system using an RP2040 pico and standard off the shelf sensors and components.
+### Sensor monitor and control firmware for an economical and personal grow system using an RP2040 pico and standard off the shelf sensors and components.
  *  air temp
  *  water temp
  *  humidity
