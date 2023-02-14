@@ -17,16 +17,16 @@ The system accomodates four liquid reservoirs using triggered solenoid valves fo
 The TDS/EC sensor can be used as a continuous monitor to ensure the water quality is within the target range and compensate for drift by adding water or nutrients.  
 - ### Irrigation
 A moisture sensor is included to monitor the moisture content of the grow media and trigger a watering. The nutrient mix can then be used to irrigate multiple grow media hydroponic, aquaponic, or terrestial grow sytems.  Additional valves can be added to the nutrient resovoir for automatic watering.
-- ### Air Quality
+- ### Air quality
 Includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors. _These sensors can be used to automate HVAC triggers with additional relays._
-- ### Power
-  * #### Specifications
-    * Quiescent (sensor only) - 0.25 W 
-    * Maximum (All valves open with sensors) - 4.00 W
+- ### power
+  * #### specifications
+    * quiescent (sensor only) - 0.25 W 
+    * maximum (All valves open with sensors) - 4.00 W
   * #### Requirements 
     * ##### VDC 5V 5W supply
-      * **On grid:** AC to 5V transformer
-      * **Off grid** Solar battery bank approximate 15W/15000mAh
+      * **on grid:** AC to 5V transformer
+      * **off grid** Solar battery bank approximate 15W/15000mAh
 ## libs:
  *  [SGP30 Gas Sensor](https://github.com/Seeed-Studio/SGP30_Gas_Sensor)
  *  [SHT4x TempRH](https://www.arduinolibraries.info/libraries/sensirion-i2-c-sht4x)
@@ -48,7 +48,7 @@ Includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors
     *  PID relay control mixing(TDS) firmware
     *  timer (lighting)
     *  trigger (irrigation) 
-    *  PID relay control HVAC(air quality) firmware.
+    *  trigger HVAC(air quality) firmware.
  *  Connectivity   
     *  WiFi 
     *  LoRa
