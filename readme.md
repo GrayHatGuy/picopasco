@@ -1,6 +1,6 @@
 ## picoponic 
 
-Sensor monitor and control hardware/firmware for a personal economical and scalable grow system using a RaspberryPi pico RP2040 and standard off the shelf sensors and components.
+sensor monitor and control hardware/firmware for a personal economical and scalable grow system using a RaspberryPi pico RP2040 and standard off the shelf sensors and components.
  *  air temp
  *  water temp
  *  humidity
@@ -12,7 +12,7 @@ Sensor monitor and control hardware/firmware for a personal economical and scala
  ![image](https://github.com/GrayHatGuy/picoponic/blob/0f7c91f61f793c428a4101a5d96488dfcb26ee3a/repo_full%20picoponicwire.png?raw=true)
 ## Features
 - ### nutrient mixing 
-The system accomodates four liquid reservoirs using triggered solenoid valves for mixing water with up to three nutrients.  User enters the nutrient tank capacity target EC/TDS and nutrient mix ratios then the system automatically mixes and fills the tank.  
+four liquid reservoirs using triggered solenoid valves for mixing water with up to three nutrients.  User inputs nutrient tank capacity target EC/TDS and nutrient mix ratios then the system automatically mixes and fills the tank.  
 - ### water quality
 The TDS/EC sensor can be used as a continuous monitor to ensure the water quality is within the target range and compensate for drift by adding water or nutrients.  
 - ### Irrigation
