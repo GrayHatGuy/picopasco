@@ -49,9 +49,11 @@ Includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors
     *  timer (lighting)
     *  trigger (irrigation) 
     *  PID relay control HVAC(air quality) firmware.
- *  Connectivity
+ *  Connectivity   
+    *  WiFi 
     *  LoRa
-    *  WiFi
     *  MQTT
  *  GUI 
+    * local
+    * Mobile
 ### _If you are interested in contributing or participating in this project contact_ GrayHatGuy@GrayHatGuy.com
