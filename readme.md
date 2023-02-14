@@ -34,4 +34,4 @@ Includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors
  *  [RP2040 pico](https://www.raspberrypi.com/products/raspberry-pi-pico/)
 ## next...
  *  Use sensor metrics as a feed forward mechanism for closed loop control of lighting, water, and air quality.  
-### If you are interested in contributing or participating in this project contact GrayHatGuy@GrayHatGuy.com
+### _If you are interested in contributing or participating in this project contact_ GrayHatGuy@GrayHatGuy.com
