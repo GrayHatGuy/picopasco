@@ -18,7 +18,7 @@ The TDS/EC sensor can be used as a continuous monitor to ensure the water qualit
 - ### Irrigation
 A moisture sensor is included to monitor the moisture content of the grow media and trigger a watering. The nutrient mix can then be used to irrigate multiple grow media hydroponic, aquaponic, or terrestial grow sytems.  Additional valves can be added to the nutrient resovoir for automatic watering.
 - ### Air Quality
-Includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors. These sensors can be used to automate HVAC triggers.
+Includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors. _These sensors can be used to automate HVAC triggers with additional relays._
 - ### Power
   * #### Specifications
     * Quiescent (sensor only) - 0.25 W 
@@ -39,6 +39,20 @@ Includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors
  *  [5V solenoid valves 4X](https://www.amazon.com/dp/B07WR9CSNQ)
  *  [RP2040 grove breakout](https://www.digikey.com/en/products/detail/seeed-technology-co.,-ltd/103100142/13688265)
  *  [RP2040 pico](https://www.raspberrypi.com/products/raspberry-pi-pico/)
-## next...
- *  Use sensor metrics as a feed forward mechanism for closed loop control of lighting, water, and air quality.  
+## present state
+ * ✅ sensor firmware
+ * ✅ harware test verification
+ * ✅ cartoon schematic 
+## future state
+ *  Backhaul 
+   *  LoRa
+   *  MQTT
+   *  WiFi
+ *  GUI
+   *  status integrations
+   *  remote control
+ *  Control
+ *  lights
+ *  hvac
+ *  
 ### _If you are interested in contributing or participating in this project contact_ GrayHatGuy@GrayHatGuy.com
