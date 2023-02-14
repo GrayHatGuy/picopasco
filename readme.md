@@ -20,11 +20,13 @@ A moisture sensor is included to monitor the moisture content of the grow media 
 - ### Air Quality
 Includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors. These sensors can be used to automate HVAC triggers.
 - ### Power
- * Quiescent (sensor only) - 0.25 W 
- * Maximum (All valves open with sensors) - 4.00 W
- * Power supply 5V 5W
-  * AC to 5V transformer.
-  * Solar battery bank approximate 15W/15000mAh
+  * #### Specifications
+    * Quiescent (sensor only) - 0.25 W 
+    * Maximum (All valves open with sensors) - 4.00 W
+  * #### Requirements 
+    * Minimum Power supply 5V 5W 
+    * AC to 5V transformer.
+    * Solar battery bank approximate 15W/15000mAh
 ## libs:
  *  [SGP30 Gas Sensor](https://github.com/Seeed-Studio/SGP30_Gas_Sensor)
  *  [SHT4x TempRH](https://www.arduinolibraries.info/libraries/sensirion-i2-c-sht4x)
