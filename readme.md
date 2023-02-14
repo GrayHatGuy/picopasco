@@ -1,6 +1,6 @@
 ## picoponic 
 
-Sensor monitor and control hardware/firmware for a personal economical grow system using an RP2040 pico and standard off the shelf sensors and components.
+Sensor monitor and control hardware/firmware for a personal economical grow system using a RaspberryPi pico RP204 and standard off the shelf sensors and components.
  *  air temp
  *  water temp
  *  humidity
