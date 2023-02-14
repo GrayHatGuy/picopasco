@@ -25,8 +25,8 @@ Includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors
     * Maximum (All valves open with sensors) - 4.00 W
   * #### Requirements 
     * ##### VDC 5V 5W supply
-      * AC to 5V transformer
-      * Solar battery bank approximate 15W/15000mAh
+      * **On grid:** AC to 5V transformer
+      * **Off grid** Solar battery bank approximate 15W/15000mAh
 ## libs:
  *  [SGP30 Gas Sensor](https://github.com/Seeed-Studio/SGP30_Gas_Sensor)
  *  [SHT4x TempRH](https://www.arduinolibraries.info/libraries/sensirion-i2-c-sht4x)
