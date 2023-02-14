@@ -12,7 +12,7 @@ Sensor monitor and control hardware/firmware for a personal economical grow syst
  ![image](https://github.com/GrayHatGuy/picoponic/blob/0f7c91f61f793c428a4101a5d96488dfcb26ee3a/repo_full%20picoponicwire.png?raw=true)
 ## Features
 - ### Nutrient mixing 
-The system accomodates four liquid reservoirs with triggered solenoid valves for mixing water and up to three nutrients.  After inputing the nutrient tank capacity target EC/TDS and mix ratios the system will automatically mix and fill the tank.  
+The system accomodates four liquid reservoirs using triggered solenoid valves for mixing water with up to three nutrients.  User enters the nutrient tank capacity target EC/TDS and nutrient mix ratios then the system automatically mixes and fills the tank.  
 - ### Water quality
 The TDS/EC sensor can be used as a continuous monitor to ensure the water quality is within the target range and compensate for drift by adding water or nutrients.  
 - ### Irrigation
