@@ -34,7 +34,7 @@ Includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors
  *  [Grove Soil Moisture](https://www.seeedstudio.com/Grove-Moisture-Sensor.html?queryID=8f8a40002a96e9bcb9aad1275f9a6cad&objectID=1678&indexName=bazaar_retailer_products)
  *  [Water quality TDS/EC](https://www.amazon.com/dp/B08DGLY3J2)
  *  [Relays 5V SPST - 4X bank](https://www.amazon.com/dp/B098DWS168)
- *  [5V Solenoid Valves](https://www.amazon.com/dp/B07WR9CSNQ)
+ *  [5V solenoid valves 4X](https://www.amazon.com/dp/B07WR9CSNQ)
  *  [RP2040 grove breakout](https://www.digikey.com/en/products/detail/seeed-technology-co.,-ltd/103100142/13688265)
  *  [RP2040 pico](https://www.raspberrypi.com/products/raspberry-pi-pico/)
 ## next...
