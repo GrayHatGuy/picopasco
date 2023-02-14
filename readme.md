@@ -24,8 +24,8 @@ Includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors
     * Quiescent (sensor only) - 0.25 W 
     * Maximum (All valves open with sensors) - 4.00 W
   * #### Requirements 
-    * ##### Power supply 5V 5W 
-      * AC to 5V transformer.
+    * ##### VDC 5V 5W supply
+      * AC to 5V transformer
       * Solar battery bank approximate 15W/15000mAh
 ## libs:
  *  [SGP30 Gas Sensor](https://github.com/Seeed-Studio/SGP30_Gas_Sensor)
