@@ -13,7 +13,7 @@ Sensor monitor and control firmware for an economical and scalable hydroponic sy
 ## Features
 - ### Nutrient mixing 
 The system accomodates four liquid reservoirs with triggered solenoid valves for mixing water and up to three nutrients.  After inputing the nutrient tank capacity target EC/TDS and mix ratios the system will automatically mix and fill the tank.  
-- ### Water quality correction
+- ### Water quality
 The TDS/EC sensor can be used as a continuous monitor to ensure the water quality is within the target range and compensate for drift by adding water or nutrients.  
 - ### Irrigation
 A moisture sensor is included to monitor the moisture content of the grow media and trigger a watering. The nutrient mix can then be used to irrigate multiple grow media hydroponic, aquaponic, or terrestial grow sytems.  Additional valves can be added to the nutrient resovoir for automatic watering.
