@@ -1,6 +1,6 @@
-## picoponic 
+## picopasci 
 
-sensor monitor and control hardware/firmware for a personal economical and scalable grow system using a RaspberryPi pico RP2040 and standard off the shelf sensors and components.
+sensor monitor and control hardware/firmware for a personal economical and scalable grow system using a RaspberryPi pico RP2040 and standard off the shelf sensors and components.  Present state includes nutrient mixing capabilities and the following sensors.
  *  air temp
  *  water temp
  *  humidity
