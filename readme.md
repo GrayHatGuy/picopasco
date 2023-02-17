@@ -47,7 +47,7 @@ Includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors
  * ✅ ~wiring schematic and pinout~ 
 ## future state
  *  Controls
-    *  ~trigger (irrigation)~
+    *  ✅ ~trigger (irrigation)~
     *  PID relay control mixing(TDS) firmware
     *  timer (lighting)
     *  trigger HVAC(air quality) firmware.
