@@ -57,5 +57,5 @@ Includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors
     *  MQTT
  *  GUI 
     * local
-    * Mobile
+    * remote mobile
 ### _If you are interested in contributing or participating in this project contact_ GrayHatGuy@GrayHatGuy.com
