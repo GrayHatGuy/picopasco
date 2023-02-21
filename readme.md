@@ -11,14 +11,6 @@ sensor monitor and control hardware/firmware for a personal economical and scala
  *  soil H2O
  *  tds
  *  ec
- 
-_ NOTE: Revised updates to pin chart in picture below 
- - SDA0 - 8
- - SCL0 - 9
- - digtial servo trigger control 6,7,20,21 
- - analog A1 TDS; A2 soil moisture
- - see default pin map variances define in pins_Arduino.h_
- 
  ![image](https://github.com/GrayHatGuy/picopasco/blob/aa4e637bce2bb47bc4344b69fb3a99ccc836f921/repo_full%20picopasco%20wire.png?raw=true)
 ## Features
 - ### nutrient mixing 
