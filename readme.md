@@ -8,32 +8,32 @@ sensor monitor and control hardware/firmware for a personal economical and scala
  *  humidity
  *  VOC
  *  CO2
- *  Soil H2O
- *  TDS
- *  EC
+ *  soil H2O
+ *  tds
+ *  ec
  
 _ NOTE: Revised updates to pin chart in picture below 
  - SDA0 - 8
  - SCL0 - 9
- - Digtial servo trigger control 6,7,20,21 
- - Analog A1 TDS; A2 soil moisture
- - See default pin map variances define in pins_Arduino.h_
+ - digtial servo trigger control 6,7,20,21 
+ - analog A1 TDS; A2 soil moisture
+ - see default pin map variances define in pins_Arduino.h_
  
  ![image](https://github.com/GrayHatGuy/picoponic/blob/0f7c91f61f793c428a4101a5d96488dfcb26ee3a/repo_full%20picoponicwire.png?raw=true)
 ## Features
 - ### nutrient mixing 
 four liquid reservoirs using triggered solenoid valves for mixing water with up to three nutrients.  User inputs nutrient tank capacity target EC/TDS and nutrient mix ratios then the system automatically mixes and fills the tank.  
 - ### water quality
-The TDS/EC sensor can be used as a continuous monitor to ensure the water quality is within the target range and compensate for drift by adding water or nutrients.  
+The tds/ec sensor can be used as a continuous monitor to ensure the water quality is within the target range and compensate for drift by adding water or nutrients.  
 - ### irrigation
 Moisture sensor monitors the grow media and can trigger a watering. The nutrient mix can then be used to irrigate multiple grow mediums like hydroponic, aquaponic, or terrestial systems.  Presently, additional valves need to be added for automatic watering.
 - ### air quality
-Includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors. _These sensors can be used to automate HVAC triggers with additional relays._
+includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors. _These sensors can be used to automate HVAC triggers with additional relays._
 - ### power
   * #### specifications
     * quiescent (sensor only) - 0.25 W 
     * maximum (All valves open with sensors) - 4.00 W
-  * #### Requirements 
+  * #### requirements 
     * ##### Supply
       * **on grid:** AC to 5V transformer 5W
       * **off grid** Solar battery bank approximate 15W/15000mAh
@@ -56,9 +56,9 @@ Includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors
 ## future state
  *  controls
     *  ✅ ~trigger (irrigation)~
-    *  Relay firmware
-    *  Integrate relay and sensor code into main.cpp 
-    *  PID relay control mixing(TDS) firmware
+    *  ✅ ~relay firmware~
+    *  integrate relay and sensor code into main.cpp 
+    *  pid relay controller mixing(TDS) 
     *  timer (lighting)
     *  trigger HVAC(air quality) firmware.
  *  connectivity   
