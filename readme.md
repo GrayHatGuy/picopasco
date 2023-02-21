@@ -57,10 +57,11 @@ includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors
  *  controls
     *  ✅ ~trigger (irrigation)~
     *  ✅ ~relay firmware~
-    *  integrate relay and sensor code into main.cpp 
-    *  pid relay controller mixing(TDS) 
+    *  integrate code into main.cpp 
+    *  low cost pH sensor
+    *  pid relay mix control TDS/ec and pH
     *  timer (lighting)
-    *  trigger HVAC(air quality) firmware.
+    *  trigger HVAC(air quality) firmware
  *  connectivity   
     *  WiFi 
     *  LoRa
