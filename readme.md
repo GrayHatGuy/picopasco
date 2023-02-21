@@ -12,12 +12,12 @@ sensor monitor and control hardware/firmware for a personal economical and scala
  *  TDS
  *  EC
  
- *NOTE: Update PIN chart in picture below with
+_ NOTE: Revised updates to pin chart in picture below 
  - SDA0 - 8
  - SCL0 - 9
  - Digtial servo trigger control 6,7,20,21 
  - Analog A1 TDS; A2 soil moisture
- - See default pin map variances define in pins_Arduino.h
+ - See default pin map variances define in pins_Arduino.h_
  
  ![image](https://github.com/GrayHatGuy/picoponic/blob/0f7c91f61f793c428a4101a5d96488dfcb26ee3a/repo_full%20picoponicwire.png?raw=true)
 ## Features
