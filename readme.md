@@ -56,6 +56,8 @@ Includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors
 ## future state
  *  Controls
     *  ✅ ~trigger (irrigation)~
+    *  Relay firmware
+    *  Integrate relay and sensor code into main.cpp 
     *  PID relay control mixing(TDS) firmware
     *  timer (lighting)
     *  trigger HVAC(air quality) firmware.
@@ -63,7 +65,7 @@ Includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors
     *  WiFi 
     *  LoRa
     *  MQTT
- *  GUI 
+ *  UI 
     * local
     * remote mobile
 ### _If you are interested in contributing or participating in this project contact_ GrayHatGuy@GrayHatGuy.com
