@@ -25,9 +25,9 @@ _ NOTE: Revised updates to pin chart in picture below
 four liquid reservoirs using triggered solenoid valves for mixing water with up to three nutrients.  User inputs nutrient tank capacity target EC/TDS and nutrient mix ratios then the system automatically mixes and fills the tank.  
 - ### water quality
 The TDS/EC sensor can be used as a continuous monitor to ensure the water quality is within the target range and compensate for drift by adding water or nutrients.  
-- ### Irrigation
+- ### irrigation
 Moisture sensor monitors the grow media and can trigger a watering. The nutrient mix can then be used to irrigate multiple grow mediums like hydroponic, aquaponic, or terrestial systems.  Presently, additional valves need to be added for automatic watering.
-- ### Air quality
+- ### air quality
 Includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors. _These sensors can be used to automate HVAC triggers with additional relays._
 - ### power
   * #### specifications
@@ -54,18 +54,18 @@ Includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors
  * ✅ ~bench verify hardware~
  * ✅ ~wiring schematic and pinout~ 
 ## future state
- *  Controls
+ *  controls
     *  ✅ ~trigger (irrigation)~
     *  Relay firmware
     *  Integrate relay and sensor code into main.cpp 
     *  PID relay control mixing(TDS) firmware
     *  timer (lighting)
     *  trigger HVAC(air quality) firmware.
- *  Connectivity   
+ *  connectivity   
     *  WiFi 
     *  LoRa
     *  MQTT
- *  UI 
+ *  ui 
     * local
     * remote mobile
 ### _If you are interested in contributing or participating in this project contact_ GrayHatGuy@GrayHatGuy.com
