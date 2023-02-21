@@ -11,7 +11,7 @@ sensor monitor and control hardware/firmware for a personal economical and scala
  *  soil H2O
  *  tds
  *  ec
- ![image](https://github.com/GrayHatGuy/picopasco/blob/aa4e637bce2bb47bc4344b69fb3a99ccc836f921/repo_full%20picopasco%20wire.png?raw=true)
+ ![image](https://github.com/GrayHatGuy/picopasco/blob/70e562d5bcff6856956953976d87959278d7a816/repo_full%20picopasco%20wire.png?raw=true)
 ## Features
 - ### nutrient mixing 
 four liquid reservoirs using triggered solenoid valves for mixing water with up to three nutrients.  User inputs nutrient tank capacity target EC/TDS and nutrient mix ratios then the system automatically mixes and fills the tank.  
