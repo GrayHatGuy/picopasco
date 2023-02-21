@@ -11,6 +11,12 @@ sensor monitor and control hardware/firmware for a personal economical and scala
  *  Soil H2O
  *  TDS
  *  EC
+ 
+ *NOTE: Update PIN chart in picture below with
+ - SDA0 - 8
+ - SCL0 - 9
+ - Digtial servo trigger control 6,7,20,21 
+ 
  ![image](https://github.com/GrayHatGuy/picoponic/blob/0f7c91f61f793c428a4101a5d96488dfcb26ee3a/repo_full%20picoponicwire.png?raw=true)
 ## Features
 - ### nutrient mixing 
