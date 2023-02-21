@@ -26,9 +26,12 @@ four liquid reservoirs using triggered solenoid valves for mixing water with up 
 - ### water quality
 The tds/ec sensor can be used as a continuous monitor to ensure the water quality is within the target range and compensate for drift by adding water or nutrients.  
 - ### irrigation
-Moisture sensor monitors the grow media and can trigger a watering. The nutrient mix can then be used to irrigate multiple grow mediums like hydroponic, aquaponic, or terrestial systems.  Presently, additional valves need to be added for automatic watering.
+Moisture sensor monitors the grow media and can trigger a watering. The nutrient mix can then be used to irrigate multiple grow mediums like hydroponic, aquaponic, or terrestial systems.  
 - ### air quality
 includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors. _These sensors can be used to automate HVAC triggers with additional relays._
+
+_additional valves may need required for automatic watering or pH mixing_
+
 - ### power
   * #### specifications
     * quiescent (sensor only) - 0.25 W 
