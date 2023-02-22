@@ -6,9 +6,9 @@ sensor monitor and control hardware/firmware for a personal economical and scala
  *  air temp
  *  water temp
  *  humidity
- *  VOC
- *  CO2
- *  soil H2O
+ *  volatile organic compounds
+ *  carbon dioxide
+ *  soil moisture
  *  tds
  *  ec
  ![image](https://github.com/GrayHatGuy/picopasco/blob/684087f6126cab00c318301aa4c4ce1e90a30841/repo_full%20picopasco%20wire.png?raw=true)
@@ -62,4 +62,4 @@ includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors
  *  ui 
     * local
     * remote mobile
-### _If you are interested in contributing or participating in this project contact_ GrayHatGuy@GrayHatGuy.com
+##### _If you are interested in contributing or participating in this project contact_ GrayHatGuy@GrayHatGuy.com
