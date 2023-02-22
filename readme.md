@@ -55,8 +55,8 @@ includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors
     *  ~integrate code i~nto main.cpp 
     *  low cost pH sensor
     *  pid relay mix control tds/ec and pH
-    *  timer (lighting)
-    *  trigger hvac (air quality)
+    *  lighting timers
+    *  hvac triggers pid control
  *  connectivity   
     *  wifi 
     *  lora(wan)
