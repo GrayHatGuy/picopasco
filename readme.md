@@ -50,7 +50,7 @@ includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors
  *  controls
     *  ✅ ~trigger (irrigation)~
     *  ✅ ~relay firmware~
-    *  _integrate code into mai_n.cpp 
+    *  ~integrate code into ma~in.cpp 
     *  low cost pH sensor
     *  pid relay mix control TDS/ec and pH
     *  timer (lighting)
