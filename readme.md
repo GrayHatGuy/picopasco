@@ -54,7 +54,7 @@ includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors
     *  low cost pH sensor
     *  pid relay mix control tds/ec and pH
     *  timer (lighting)
-    *  trigger HVAC (air quality)
+    *  trigger hvac (air quality)
  *  connectivity   
     *  wifi 
     *  lora(wan)
