@@ -52,14 +52,14 @@ includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors
     *  ✅ ~relay firmware~
     *  ~integrate code into ma~in.cpp 
     *  low cost pH sensor
-    *  pid relay mix control TDS/ec and pH
+    *  pid relay mix control tds/ec and pH
     *  timer (lighting)
-    *  trigger HVAC(air quality) firmware
+    *  trigger HVAC (air quality)
  *  connectivity   
-    *  WiFi 
-    *  LoRa
-    *  MQTT
+    *  wifi 
+    *  lora(wan)
+    *  mqtt
  *  ui 
-    * local
-    * remote mobile
+    * local wifi/bt 
+    * remote mobile app
 ##### _If you are interested in contributing or participating in this project contact_ GrayHatGuy@GrayHatGuy.com
