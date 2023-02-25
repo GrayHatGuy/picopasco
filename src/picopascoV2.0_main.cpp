@@ -16,9 +16,7 @@
 int ledState = LOW, t_loop = 0, mix = 0, mixIntSP = 10000,analogBuffer[SCOUNT], analogBufferTemp[SCOUNT], analogBufferIndex = 0,copyIndex = 0, sensorValue = 0; float averageVoltage = 0,tdsValue = 0,temperaturetds = 25;
 float temperature, humidity; uint32_t serialNumber; uint16_t error;char errorMessage[256], mixIntPV; //next time to mix millis() // PV elapsed dwell at trigger HIGH state per relay n.
 const int n = 4, ctl[n] = {6,7,20,21} , trigger = HIGH, tmixSP[n] = {100,200,500,1000}, ledPin =  LED_BUILTIN, minloop = 60, blinkloops = 10; 
-s16 err;
-u32 ah = 0;
-u16 scaled_ethanol_signal, scaled_h2_signal;
+s16 err; u32 ah = 0; u16 scaled_ethanol_signal, scaled_h2_signal;
 SensirionI2CSht4x sht4x;
 void setup() {
   Serial.begin(115200);Wire.setSDA(PIN_WIRE0_SDA); Wire.setSCL(PIN_WIRE0_SCL);Wire.begin();pinMode(ledPin, OUTPUT);
@@ -32,20 +30,15 @@ void setup() {
   }
   while (t_loop < minloop){
     t_loop = minloop;}
-
-  sht4x.begin(Wire); sht4x.serialNumber(serialNumber);
-  err = sgp_measure_signals_blocking_read(&scaled_ethanol_signal,&scaled_h2_signal);
-  sgp_set_absolute_humidity(13000); /* Set absolute humidity to 13.000 g/m^3 adjust calibration*/
-  sgp_iaq_init();
-
+  sht4x.begin(Wire); sht4x.serialNumber(serialNumber); err = sgp_measure_signals_blocking_read(&scaled_ethanol_signal,&scaled_h2_signal);
+  sgp_set_absolute_humidity(13000); sgp_iaq_init(); /* Set absolute humidity to 13.000 g/m^3 adjust calibration*/
 }
 void loop() {
   delay(t_loop/2); String meas = scan(); Serial.println(meas);
-  //if (millis() > mixIntPV){ mix = 1; }
-  //while (mix == 1){ stiritup(); }
+  if (millis() > mixIntPV){ mix = 1; }
+  while (mix == 1){ stiritup(); }
   delay(t_loop/2);
 } 
-
 String scan(){ 
     String printscan = " Start Scan ";
     //TDS - read the analog value more stable by the median filtering algorithm, and convert to voltage value //temperature compensation formula: fFinalResult(25^C) = fFinalResult(current)/(1.0+0.02*(fTP-25.0));//convert voltage value to tds value
@@ -55,7 +48,6 @@ String scan(){
     averageVoltage =  analogRead(TdsSensorPin) * (float)VREF/ 1024.0; 
     float compensationCoefficient=1.0+0.02*(temperaturetds-25.0); float compensationVoltage=averageVoltage/compensationCoefficient; 
     tdsValue=(133.42*compensationVoltage*compensationVoltage*compensationVoltage - 255.86*compensationVoltage*compensationVoltage + 857.39*compensationVoltage)*0.5;   
-    
     printscan = printscan + temperature + humidity + co2_eq_ppm + tvoc_ppb + tdsValue + compensationVoltage + analogRead(moisturePin); return printscan;
 }
 void stiritup(){
