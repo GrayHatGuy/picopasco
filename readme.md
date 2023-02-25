@@ -49,6 +49,7 @@ includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors
  * ✅ ~bench verify hardware~
  * ✅ ~wiring schematic and pinout~ 
 ## future state
+ *  yt demo
  *  controls
     *  ✅ ~trigger (irrigation)~
     *  ✅ ~relay firmware~
