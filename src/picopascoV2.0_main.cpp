@@ -3,7 +3,6 @@
  *  additional libraries required for a successfull build: https://github.com/Seeed-Studio/SGP30_Gas_Sensor * https://www.arduinolibraries.info/libraries/sensirion-i2-c-sht4x
  *  contact mailto://GrayHatGuy@GrayHatGuy.com */
 #include <Arduino.h>
-//#include <common.h>
 #include <SensirionI2CSht4x.h>
 #include <Wire.h>
 #include "pins_arduino.h" //include custom header
@@ -17,7 +16,6 @@
 int ledState = LOW, t_loop = 0, mix = 0, mixIntSP = 10000,analogBuffer[SCOUNT], analogBufferTemp[SCOUNT], analogBufferIndex = 0,copyIndex = 0, sensorValue = 0; float averageVoltage = 0,tdsValue = 0,temperaturetds = 25;
 float temperature, humidity; uint32_t serialNumber; uint16_t error;char errorMessage[256], mixIntPV; //next time to mix millis() // PV elapsed dwell at trigger HIGH state per relay n.
 const int n = 4, ctl[n] = {6,7,20,21} , trigger = HIGH, tmixSP[n] = {100,200,500,1000}, ledPin =  LED_BUILTIN, minloop = 60, blinkloops = 10; 
-
 s16 err;
 u32 ah = 0;
 u16 scaled_ethanol_signal, scaled_h2_signal;
