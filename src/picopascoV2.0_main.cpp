@@ -23,10 +23,7 @@ void setup() {
   mixIntPV = mixIntSP + millis(); 
   for(int i=0; i < n; i++) {
     pinMode(ctl[i], OUTPUT);
-    if(trigger ==LOW){ 
-      digitalWrite(ctl[i], HIGH); }
-    else{
-      digitalWrite(ctl[i], LOW); }
+    digitalWrite(ctl[i], LOW); 
   }
   while (t_loop < minloop){
     t_loop = minloop;}
