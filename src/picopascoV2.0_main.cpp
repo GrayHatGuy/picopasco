@@ -56,5 +56,5 @@ void stiritup(){
       }
     Serial.print("Pump "+String(m)+" complete! ");Serial.print("Dispensed for " + String((millis()-pumpon))+" ms");  mix = 0; Serial.println();
   }
-  Serial.print("mix complete! Total time: " + String((millis()-mixIntPV))); mixIntPV =  mixIntSP + millis(); Serial.println(); 
+  Serial.print("mix complete! Total time: " + String((millis()-mixIntPV))); mix=0; mixIntPV =  mixIntSP + millis(); Serial.println(); 
 }
