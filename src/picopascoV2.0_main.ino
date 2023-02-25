@@ -45,7 +45,7 @@ String scan(){
     averageVoltage =  analogRead(TdsSensorPin) * (float)VREF/ 1024.0; 
     float compensationCoefficient=1.0+0.02*(temperaturetds-25.0); float compensationVoltage=averageVoltage/compensationCoefficient; 
     tdsValue=(133.42*compensationVoltage*compensationVoltage*compensationVoltage - 255.86*compensationVoltage*compensationVoltage + 857.39*compensationVoltage)*0.5;   
-    printscan = printscan + temperature + humidity + co2_eq_ppm + tvoc_ppb + tdsValue + compensationVoltage + analogRead(moisturePin); return printscan;
+    printscan = printscan + temperature + humidity + co2_eq_ppm + tvoc_ppb + tdsValue + compensationVoltage + analogRead(moisturePin); Serial.print(printscan); return printscan;
 }
 void stiritup(){
   String printmix = " Start Mix ";
@@ -56,5 +56,5 @@ void stiritup(){
       }
     Serial.print("Pump "+String(m)+" complete! ");Serial.print("Dispensed for " + String((millis()-pumpon))+" ms");  mix = 0; Serial.println();
   }
-  Serial.print("mix complete! Total time: " + String((millis()-mixIntPV))); mixIntPV =  mixIntSP + millis(); Serial.println(); 
+  Serial.print("mix complete! Total time: " + String((millis()-mixIntPV))); mix=0; mixIntPV =  mixIntSP + millis(); Serial.println(); 
 }
