@@ -13,7 +13,11 @@ __present state includes nutrient mixing capabilities and the following sensors.
  *  soil moisture
  *  tds
  *  ec
- ++++++++++++++ADD READOUT MIX TERM CAPTURE
+ 
+ _*Terminal capture of sensor scan and mix:*_
+  ![image](https://github.com/GrayHatGuy/picopasco/blob/204e0818a9ec7a372036cbe484e269cef4bcb776/picts/COM8%20-%20PuTTY%202023-02-26%2023-33-59.mp4)
+ 
+ wiring diagram:
  ![image](https://github.com/GrayHatGuy/picopasco/blob/684087f6126cab00c318301aa4c4ce1e90a30841/repo_full%20picopasco%20wire.png?raw=true)
 ## Features
 - ### nutrient mixing 
