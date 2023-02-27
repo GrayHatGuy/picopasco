@@ -71,9 +71,9 @@ includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors
     * remote mobile app
  *  picts
 
-    - Current state sensors 7x and relay/pumps 4x (dry fit) 
+    - *current state* sensors 7x and relay/pumps 4x (dry fit) 
    ![image](https://github.com/GrayHatGuy/picopasco/blob/5828d865b027139c95d328c9270929ebe838d00b/picts/present_state_relayX4_sensorsX7.jpeg)
-    - Future state upgrade 4+ relays and additional sensors. Add triggers for heating or humidifying.  
+    - *future state* upgrade 4+ relays and additional sensors. Add triggers for heating or humidifying.  
     ![image](https://github.com/GrayHatGuy/picopasco/blob/a89c131b6d9dfd96e4c88eb03be09111bf86e8a9/picts/future_state_upgrades_relay8X_sensors7X_Heat_Humidity_relayunused2X.jpeg)
 
  
