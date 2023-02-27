@@ -15,7 +15,7 @@ __present state includes nutrient mixing capabilities and the following sensors.
  *  ec
   
   _*Terminal capture of sensor scan and mix:*_
-  ![Terminal]([https://youtu.be/9E_uXJ-so4A?raw=true](https://www.youtube.com/watch?v=9E_uXJ-so4A&feature=youtu.be))
+  ![Terminal](https://www.youtube.com/watch?v=9E_uXJ-so4A&feature=youtu.be)
 ## wiring diagram:
  ![image](https://github.com/GrayHatGuy/picopasco/blob/684087f6126cab00c318301aa4c4ce1e90a30841/repo_full%20picopasco%20wire.png?raw=true)
 ## features
