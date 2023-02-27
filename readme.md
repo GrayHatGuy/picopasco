@@ -13,6 +13,7 @@ __present state includes nutrient mixing capabilities and the following sensors.
  *  soil moisture
  *  tds
  *  ec
+ <ADD READOUT MIX TERM CAPTURE>
  ![image](https://github.com/GrayHatGuy/picopasco/blob/684087f6126cab00c318301aa4c4ce1e90a30841/repo_full%20picopasco%20wire.png?raw=true)
 ## Features
 - ### nutrient mixing 
@@ -65,4 +66,6 @@ includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors
  *  ui 
     * local wifi/bt 
     * remote mobile app
+ *  picts
+ <ADD layout present state> and <relay upgrades>
 ##### _If you are interested in contributing or participating in this project contact_ GrayHatGuy@GrayHatGuy.com
