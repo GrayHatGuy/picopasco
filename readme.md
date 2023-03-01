@@ -29,7 +29,7 @@ moisture sensor monitors the grow media and can trigger irrigation. The nutrient
 - ### air quality*
 includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors.
 
-    **_**present state only include closed loop feedback for mixing additional relays may be added to control irrigation, air quality, and/or lighting*_**
+    *-present state only include closed loop feedback for mixing additional relays may be added to control irrigation, air quality, and/or lighting
 
 - ### power
   * #### specifications
