@@ -15,7 +15,7 @@ sensor monitor and control hardware/firmware for a personal economical and scala
  *  ec
  *  pH (in test)
   
-    [ _**example: firmware output**_](https://www.youtube.com/watch?v=9E_uXJ-so4A&feature=youtu.be)
+    **_example:_**[ _**firmware output**_](https://www.youtube.com/watch?v=9E_uXJ-so4A&feature=youtu.be)
   
 ## wiring diagram:
  ![image](https://github.com/GrayHatGuy/picopasco/blob/684087f6126cab00c318301aa4c4ce1e90a30841/repo_full%20picopasco%20wire.png?raw=true)
