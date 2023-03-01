@@ -65,11 +65,11 @@ includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors
  *  yt demo
     * [scan/mix output](https://www.youtube.com/watch?v=9E_uXJ-so4A&feature=youtu.be) 
  *  portability  
-    *  Alternate MCUs
+    *  alternate MCUs
         -  xiao
         -  esp32
         -  wioterm
-    * platformio build/flash
+    * platformio build/flash verify
  *  controls
     *  +low cost pH sensor - _$30 passes smoke test_
     *  +pid relay mix control tds/ec and pH - _dev code in process_
