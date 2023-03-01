@@ -4,7 +4,7 @@
 
 sensor monitor and control hardware/firmware for a personal economical and scalable grow system using a RaspberryPi pico RP2040 and standard off the shelf sensors and components. 
 
-__present state includes nutrient mixing capabilities and the following sensors.___
+**_present state includes nutrient mixing capabilities and the following sensors._**
  *  air temp
  *  water temp
  *  humidity
