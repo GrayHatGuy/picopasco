@@ -58,8 +58,7 @@ includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors
  * ✅ ~bench verify hardware~
  * ✅ ~wiring schematic and pinout~ 
  * ✅ ~relay trigger firmware (mixing)~
- * ✅ ~relay firmware~
- * ✅ ~integrate code into main.cpp~ 
+ * ✅ ~integrate sensor and mixing code (See V3.0+)~ 
 ## future state
  *  yt demo
     * [scan/mix output](https://www.youtube.com/watch?v=9E_uXJ-so4A&feature=youtu.be) 
