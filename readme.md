@@ -77,7 +77,7 @@ includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors
     *  hvac triggers pid control
  *  connectivity   
     *  wifi 
-    *  +lora(wan) -_ boot check pass - Waveshare SX1262 header piggyback (changed GPIO20 conflict with relay trigger)_
+    *  +lora(wan) - _boot check pass - Waveshare SX1262 header piggyback (changed GPIO20 conflict with relay trigger)_
     *  mqtt
  *  ui 
     * local wifi/bt  
