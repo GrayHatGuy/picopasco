@@ -13,6 +13,7 @@ __present state includes nutrient mixing capabilities and the following sensors.
  *  soil moisture
  *  tds
  *  ec
+ *  pH (in test)
   
   [ _**Terminal capture of sensor scan and mix:**_](https://www.youtube.com/watch?v=9E_uXJ-so4A&feature=youtu.be)
   
