@@ -24,10 +24,11 @@ sensor monitor and control hardware/firmware for a personal economical and scala
 four liquid reservoirs using relay triggered solenoid valves for mixing water with up to three nutrients.  User inputs nutrient tank capacity, target EC/TDS, nutrient mix ratios, and mixt interval then the system automatically mixes and fills the tank. Mix may also be triggered externally for point of use.
 - ### water quality
 The tds/ec sensor can be used as a continuous monitor to ensure the water quality is within the target range and compensate for drift by adding water or nutrients.  
-- ### irrigation
-moisture sensor monitors the grow media and can trigger a watering. The nutrient mix can then be used to irrigate multiple grow mediums like hydroponic, aquaponic, or terrestial systems. _requires additional relays and irrigation pump or valve_ 
-- ### air quality
-includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors. _requires additional relays_
+- ### irrigation*
+moisture sensor monitors the grow media and can trigger irrigation. The nutrient mix can then be used to irrigate multiple grow mediums like hydroponic, aquaponic, or terrestial systems. 
+- ### air quality*
+includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors.
+**present state only include closed loop feedback for mixing additional relays may be added to control irrigation, air quality, and/or lighting*
 
 - ### power
   * #### specifications
