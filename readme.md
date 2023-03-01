@@ -64,8 +64,8 @@ includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors
  * ✅ ~integrate sensor and mixing code (See V3.0+)~ 
  * ✅ ~platformio and arduino compatible~
 ## future state
- *  yt demo
-    * [scan/mix output](https://www.youtube.com/watch?v=9E_uXJ-so4A&feature=youtu.be) 
+ * visuals
+    *  **_example:_**[ _**firmware output**_](https://www.youtube.com/watch?v=9E_uXJ-so4A&feature=youtu.be)
  *  portability  
     *  alternate MCUs
         -  xiao
