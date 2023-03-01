@@ -66,9 +66,9 @@ includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors
     * [scan/mix output](https://www.youtube.com/watch?v=9E_uXJ-so4A&feature=youtu.be) 
  *  portability  
     *  Alternate MCUs
-      -  xiao
-      -  esp32
-      -  wioterm
+        -  xiao
+        -  esp32
+        -  wioterm
     * platformio build/flash
  *  controls
     *  +low cost pH sensor - _$30 passes smoke test_
