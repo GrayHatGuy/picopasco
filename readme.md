@@ -28,7 +28,8 @@ The tds/ec sensor can be used as a continuous monitor to ensure the water qualit
 moisture sensor monitors the grow media and can trigger irrigation. The nutrient mix can then be used to irrigate multiple grow mediums like hydroponic, aquaponic, or terrestial systems. 
 - ### air quality*
 includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors.
-**present state only include closed loop feedback for mixing additional relays may be added to control irrigation, air quality, and/or lighting*
+
+_**present state only include closed loop feedback for mixing additional relays may be added to control irrigation, air quality, and/or lighting*_
 
 - ### power
   * #### specifications
