@@ -48,27 +48,32 @@ includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors
  *  [5V solenoid valves 4X](https://www.amazon.com/dp/B07WR9CSNQ)
  *  [RP2040 grove breakout](https://www.digikey.com/en/products/detail/seeed-technology-co.,-ltd/103100142/13688265)
  *  [RP2040 pico](https://www.raspberrypi.com/products/raspberry-pi-pico/)
+ *  [pH sensor](https://www.amazon.com/GAOHOU-PH0-14-Detect-Electrode-Arduino/dp/B0799BXMVJ)
+ *  [5V pumps (alt solenoids)](https://www.amazon.com/Gikfun-2-5V-6V-Submersible-Silicone-EK1374/dp/B0957BS936/)
+ *  [SX1262 LoRaWAN RPi pico HAT waveshare](https://www.waveshare.com/pico-lora-sx1262-868m.htm)
+ *  [alt RFM95 LoRA]()
+ *  [alt LoRa E5]()
 ## present state
  * ✅ ~sensor firmware~
  * ✅ ~bench verify hardware~
  * ✅ ~wiring schematic and pinout~ 
+ * ✅ ~relay trigger firmware (mixing)~
+ * ✅ ~relay firmware~
+ * ✅ ~integrate code into main.cpp~ 
 ## future state
  *  yt demo
     * [scan/mix output](https://www.youtube.com/watch?v=9E_uXJ-so4A&feature=youtu.be) 
  *  controls
-    *  ✅ ~trigger (irrigation)~
-    *  ✅ ~relay firmware~
-    *  ✅ ~integrate code into main.cpp~ 
-    *  low cost pH sensor
-    *  pid relay mix control tds/ec and pH
+    *  +low cost pH sensor - _$30 passes smoke test_
+    *  +pid relay mix control tds/ec and pH - _dev code in process_
     *  lighting timers
     *  hvac triggers pid control
  *  connectivity   
     *  wifi 
-    *  lora(wan)
+    *  +lora(wan) -_ boot check pass - Waveshare SX1262 header piggyback (changed GPIO20 conflict with relay trigger)_
     *  mqtt
  *  ui 
-    * local wifi/bt 
+    * local wifi/bt  
     * remote mobile app
  *  picts
 
