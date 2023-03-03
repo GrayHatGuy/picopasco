@@ -68,7 +68,7 @@ includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors
     *  Example of runtime [ _**firmware output**_](https://www.youtube.com/watch?v=9E_uXJ-so4A&feature=youtu.be)
     *  Testing minimum [response time of relays](https://youtu.be/YmTmU25x0V8). Found 3 ms is the mininum otherwise they fail to mechanically actuate.
     *  [Max power consumed](https://youtube.com/shorts/H6yiRs7PBLs?feature=share) 350 mA @ 5V [1.5W] during dry pump cycling.
-    *  [Initial power on test](https://youtu.be/p2OLT5P7gyc) failed to stop pumping due to partial a partial vacuum induced syphoning effect. Need to consider pump            water level and tubing length to mitigate issue.
+    *  [Initial power on test](https://youtu.be/p2OLT5P7gyc) failed to stop pumping due to a partial vacuum build up induced syphoning effect. Need to consider pump          water level and tubing length to mitigate issue.
  *  controls
     *  +low cost pH sensor - _$30 passes smoke test_
     *  +pid relay mix control tds/ec and pH - _dev code in process_
