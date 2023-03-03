@@ -56,6 +56,7 @@ includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors
  *  [SX1262 LoRaWAN RPi pico HAT waveshare](https://www.waveshare.com/pico-lora-sx1262-868m.htm)
  *  [alt RFM95 LoRA]()
  *  [alt LoRa E5]()
+ *  [pH](https://www.amazon.com/dp/B0799BXMVJ)
 ## present state
  * ✅ ~sensor firmware~
  * ✅ ~bench verify hardware~
