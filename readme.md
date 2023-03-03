@@ -5,7 +5,7 @@
  ## description
 sensor monitor and control hardware/firmware for a personal economical and scalable grow system using a raspberrypi pico and standard off the shelf sensors and components. 
 
-#### **present state** _includes nutrient mixing capabilities and monitor of the following sensors._**
+#### **present state** _includes nutrient mixing capabilities and monitor of the following sensors._
  *  air temp
  *  water temp
  *  humidity
