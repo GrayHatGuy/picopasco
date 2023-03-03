@@ -77,12 +77,12 @@ includes temperature, humidity, co2, and volatile organic chemical (voc) sensors
     *  [max power consumed](https://youtube.com/shorts/H6yiRs7PBLs?feature=share) 350 ma @ 5 volts [1.5 watt] during dry pump cycling.
     *  [initial power on test](https://youtu.be/p2OLT5P7gyc) failed to stop pumping due to a partial vacuum build up induced syphoning effect. 
  *  ### controls
-    *  +pid relay mix control tds/ec and pH - _dev code in process_
+    *  +pid relay mix control tds/ec and pH -> _dev pid controller code in process_
     *  lighting timers
     *  hvac triggers pid control
  *  ### connectivity   
     *  wifi 
-    *  +lora(wan) - _boot check pass - Waveshare SX1262 header piggyback (changed GPIO20 conflict with relay trigger)_
+    *  +lora(wan) ->  _boot check pass - sx1262 header piggyback (changed found gpio20 conflict with relay trigger and radio)_
     *  mqtt
  *  ### ui 
     * local wifi/bt  
