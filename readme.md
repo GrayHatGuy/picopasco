@@ -35,7 +35,7 @@ includes temperature, humidity, co2, and volatile organic chemical (voc) sensors
 - ### power
   * #### specifications
     * quiescent (sensor only) - 0.25 watt 
-    * maximum (All valves open with sensors) - 4.00 watts
+    * maximum (all valves open with sensors scanning) - 4.00 watts* _*operation limited to 1 pump at a time with relay triggering 1.75 watts_
   * #### requirements 
     * ##### supply
       * **on grid:** ac to 5 volts transformer 5 watts
