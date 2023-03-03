@@ -1,10 +1,10 @@
 ## picopasco
 
-*- to feed oneself with small portions*
+ *- to feed oneself with small portions*
 
 sensor monitor and control hardware/firmware for a personal economical and scalable grow system using a RaspberryPi pico RP2040 and standard off the shelf sensors and components. 
 
-  **_present state includes nutrient mixing capabilities and the following sensors._**
+   **_present state includes nutrient mixing capabilities and the following sensors._**
  *  air temp
  *  water temp
  *  humidity
@@ -13,9 +13,9 @@ sensor monitor and control hardware/firmware for a personal economical and scala
  *  soil moisture
  *  tds
  *  ec
- *  pH (in test)
+ *  pH 
   
-  **_see [vids](https://github.com/GrayHatGuy/picopasco/blob/main/readme.md#vids) and [picts](https://github.com/GrayHatGuy/picopasco/blob/main/readme.md#picts)     for more details._**
+   **_see [vids](https://github.com/GrayHatGuy/picopasco/blob/main/readme.md#vids) and [picts](https://github.com/GrayHatGuy/picopasco/blob/main/readme.md#picts)     for more details._**
   
 ## wiring diagram:
  ![image](https://github.com/GrayHatGuy/picopasco/blob/684087f6126cab00c318301aa4c4ce1e90a30841/repo_full%20picopasco%20wire.png?raw=true)
