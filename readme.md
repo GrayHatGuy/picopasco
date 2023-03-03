@@ -59,7 +59,7 @@ includes temperature, humidity, co2, and volatile organic chemical (voc) sensors
   -  [rp2040 grove breakout](https://www.digikey.com/en/products/detail/seeed-technology-co.,-ltd/103100142/13688265)
 
   -  [5 volt solenoid valves 4x](https://www.amazon.com/dp/B07WR9CSNQ)
-  -  [SX1262 LoRaWAN raspberry pi pico hat waveshare](https://www.waveshare.com/pico-lora-sx1262-868m.htm)
+  -  [sx1262 lora(wan) raspberry pi pico hat](https://www.waveshare.com/pico-lora-sx1262-868m.htm)
   -  [alt rfm95 lora p2p]()
   -  [alt lorae5 lorawan)]()
 ## present state
