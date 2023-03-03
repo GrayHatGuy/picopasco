@@ -5,7 +5,8 @@
  ## description
 sensor monitor and control hardware/firmware for a personal economical and scalable grow system using a raspberrypi pico and standard off the shelf sensors and components. 
 
-#### **present state** _includes nutrient mixing capabilities and monitor of the following sensors._
+#### **present state** 
+_includes nutrient mixing capabilities and monitor of the following sensors._
  *  air temp
  *  water temp
  *  humidity
@@ -62,7 +63,7 @@ includes temperature, humidity, co2, and volatile organic chemical (voc) sensors
   -  [sx1262 lora(wan) raspberry pi pico hat](https://www.waveshare.com/pico-lora-sx1262-868m.htm)
   -  [alt rfm95 lora p2p]()
   -  [alt lorae5 lorawan)]()
-## present state
+## status
  * ✅ ~sensor firmware~
  * ✅ ~bench verify hardware~
  * ✅ ~wiring schematic and pinout~ 
@@ -70,7 +71,10 @@ includes temperature, humidity, co2, and volatile organic chemical (voc) sensors
  * ✅ ~integrate sensor and mixing code (See V3.0+)~ 
  * ✅ ~platformio and arduino compatible~
  * ✅ ~pH sensor~
-## future state
+ * [ ] pid control mix to target setpoint pH/tds/ec
+ * [ ] sx1262 lora/wan 
+ * [ ] wifi/bt/mqtt
+## plan 
  * ### vids
     *  example of runtime [firmware output](https://www.youtube.com/watch?v=9E_uXJ-so4A&feature=youtu.be)
     *  testing minimum [response time of relays](https://youtu.be/YmTmU25x0V8). 3 ms is the mininum trigger dwell otherwise relays fail to actuate mechanically.
