@@ -28,7 +28,7 @@ The tds/ec sensor can be used as a continuous monitor to ensure the water qualit
 - ### irrigation*
 moisture sensor monitors the grow media and can trigger irrigation. The nutrient mix can then be used to irrigate multiple grow mediums like hydroponic, aquaponic, or terrestial systems. 
 - ### air quality*
-includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors.
+includes temperature, humidity, co2, and volatile organic chemical (voc) sensors.
 
   _*-present state only include closed loop feedback for mixing additional relays may be added to control irrigation, air quality, and/or lighting_
 
@@ -38,29 +38,29 @@ includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors
     * maximum (All valves open with sensors) - 4.00 W
   * #### requirements 
     * ##### Supply
-      * **on grid:** AC to 5V transformer 5W
-      * **off grid** Solar battery bank approximate 15W/15000mAh
+      * **on grid:** ac to 5v transformer 5 watts
+      * **off grid** Solar battery bank approximate 15watts/15000 mah
 ## libs:
- *  [SGP30 Gas Sensor](https://github.com/Seeed-Studio/SGP30_Gas_Sensor)
- *  [SHT4x TempRH](https://www.arduinolibraries.info/libraries/sensirion-i2-c-sht4x)
+ *  [sgp30 gas sensor](https://github.com/Seeed-Studio/SGP30_Gas_Sensor)
+ *  [sht4x temp/rh](https://www.arduinolibraries.info/libraries/sensirion-i2-c-sht4x)
 ## parts: 
   ### minimum required
    *  [rp2040 pico  - (pico W optional)](https://www.raspberrypi.com/products/raspberry-pi-pico/)
    *  [grovw aht4x temp/rh](https://www.seeedstudio.com/Grove-Temp-Humi-Sensor-SHT40-p-5384.html?queryID=79f54ab791e4345a5bd143b2f1674b74&objectID=5384&indexName=bazaar_retailer_products)
    *  [grove sgp30 voc/co2](https://www.seeedstudio.com/Grove-VOC-and-eCO2-Gas-Sensor-for-Arduino-SGP30.html?queryID=f5af88e62b89603f700a72fc7083e746&objectID=127&indexName=bazaar_retailer_products)
   queryID=8f8a40002a96e9bcb9aad1275f9a6cad&objectID=1678&indexName=bazaar_retailer_products)
-   *  [Water quality TDS/EC ](https://www.amazon.com/dp/B08DGLY3J2)
+   *  [water quality tds/ec ](https://www.amazon.com/dp/B08DGLY3J2)
    *  [pH sensor](https://www.amazon.com/GAOHOU-PH0-14-Detect-Electrode-Arduino/dp/B0799BXMVJ)
-   *  [relays 5V SPST - 4X bank](https://www.amazon.com/dp/B098DWS168)
+   *  [relays 5 volt spdt - 4x bank](https://www.amazon.com/dp/B098DWS168)
   ### optional items:
-   *  [5V pumps 4X](https://www.amazon.com/Gikfun-2-5V-6V-Submersible-Silicone-EK1374/dp/B0957BS936/)
-   *  [Grove Soil Moisture -_(optional)](https://www.seeedstudio.com/Grove-Moisture-Sensor.html?
-   *  [RP2040 grove breakout - (optional))](https://www.digikey.com/en/products/detail/seeed-technology-co.,-ltd/103100142/13688265)
+   *  [5 volt pumps 4xX](https://www.amazon.com/Gikfun-2-5V-6V-Submersible-Silicone-EK1374/dp/B0957BS936/)
+   *  [grove soil moisture -_(optional)](https://www.seeedstudio.com/Grove-Moisture-Sensor.html?
+   *  [rp2040 grove breakout - (optional))](https://www.digikey.com/en/products/detail/seeed-technology-co.,-ltd/103100142/13688265)
 
-   *  [5V solenoid valves 4X - (optional)](https://www.amazon.com/dp/B07WR9CSNQ)
-   *  [SX1262 LoRaWAN RPi pico HAT waveshare - (optional)](https://www.waveshare.com/pico-lora-sx1262-868m.htm)
-   *  [alt RFM95 LoRA  - (optional)]()
-   *  [alt LoRa E5  - (optional)]()
+   *  [5 volt solenoid valves 4x - (optional)](https://www.amazon.com/dp/B07WR9CSNQ)
+   *  [SX1262 LoRaWAN raspberry pi pico hat waveshare - (optional)](https://www.waveshare.com/pico-lora-sx1262-868m.htm)
+   *  [alt rfm95 lora p2p  - (optional)]()
+   *  [alt lorae5 lorawan  - (optional)]()
 ## present state
  * ✅ ~sensor firmware~
  * ✅ ~bench verify hardware~
