@@ -44,20 +44,23 @@ includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors
  *  [SGP30 Gas Sensor](https://github.com/Seeed-Studio/SGP30_Gas_Sensor)
  *  [SHT4x TempRH](https://www.arduinolibraries.info/libraries/sensirion-i2-c-sht4x)
 ## parts: 
- *  [Grove SHT4x Temp/RH](https://www.seeedstudio.com/Grove-Temp-Humi-Sensor-SHT40-p-5384.html?queryID=79f54ab791e4345a5bd143b2f1674b74&objectID=5384&indexName=bazaar_retailer_products)
- *  [Grove SGP30 VOC/CO2](https://www.seeedstudio.com/Grove-VOC-and-eCO2-Gas-Sensor-for-Arduino-SGP30.html?queryID=f5af88e62b89603f700a72fc7083e746&objectID=127&indexName=bazaar_retailer_products)
- *  [Grove Soil Moisture](https://www.seeedstudio.com/Grove-Moisture-Sensor.html?queryID=8f8a40002a96e9bcb9aad1275f9a6cad&objectID=1678&indexName=bazaar_retailer_products)
- *  [Water quality TDS/EC](https://www.amazon.com/dp/B08DGLY3J2)
- *  [Relays 5V SPST - 4X bank](https://www.amazon.com/dp/B098DWS168)
- *  [5V pumps 4X](https://www.amazon.com/Gikfun-2-5V-6V-Submersible-Silicone-EK1374/dp/B0957BS936/)
- *  [RP2040 grove breakout](https://www.digikey.com/en/products/detail/seeed-technology-co.,-ltd/103100142/13688265)
- *  [RP2040 pico](https://www.raspberrypi.com/products/raspberry-pi-pico/)
- *  [pH sensor](https://www.amazon.com/GAOHOU-PH0-14-Detect-Electrode-Arduino/dp/B0799BXMVJ)
- *  [alt pumps - 5V solenoid valves 4X](https://www.amazon.com/dp/B07WR9CSNQ)
- *  [SX1262 LoRaWAN RPi pico HAT waveshare](https://www.waveshare.com/pico-lora-sx1262-868m.htm)
- *  [alt RFM95 LoRA]()
- *  [alt LoRa E5]()
- *  [pH](https://www.amazon.com/dp/B0799BXMVJ)
+  ### minimum required
+   *  [RP2040 pico  - (pico W optional)](https://www.raspberrypi.com/products/raspberry-pi-pico/)
+   *  [Grove SHT4x Temp/RH](https://www.seeedstudio.com/Grove-Temp-Humi-Sensor-SHT40-p-5384.html?queryID=79f54ab791e4345a5bd143b2f1674b74&objectID=5384&indexName=bazaar_retailer_products)
+   *  [Grove SGP30 VOC/CO2](https://www.seeedstudio.com/Grove-VOC-and-eCO2-Gas-Sensor-for-Arduino-SGP30.html?queryID=f5af88e62b89603f700a72fc7083e746&objectID=127&indexName=bazaar_retailer_products)
+  queryID=8f8a40002a96e9bcb9aad1275f9a6cad&objectID=1678&indexName=bazaar_retailer_products)
+   *  [Water quality TDS/EC ](https://www.amazon.com/dp/B08DGLY3J2)
+   *  [pH sensor](https://www.amazon.com/GAOHOU-PH0-14-Detect-Electrode-Arduino/dp/B0799BXMVJ)
+   *  [Relays 5V SPST - 4X bank](https://www.amazon.com/dp/B098DWS168)
+  ### optional items:
+   *  [5V pumps 4X](https://www.amazon.com/Gikfun-2-5V-6V-Submersible-Silicone-EK1374/dp/B0957BS936/)
+   *  [Grove Soil Moisture -_(optional)](https://www.seeedstudio.com/Grove-Moisture-Sensor.html?
+   *  [RP2040 grove breakout - (optional))](https://www.digikey.com/en/products/detail/seeed-technology-co.,-ltd/103100142/13688265)
+
+   *  [5V solenoid valves 4X - (optional)](https://www.amazon.com/dp/B07WR9CSNQ)
+   *  [SX1262 LoRaWAN RPi pico HAT waveshare - (optional)](https://www.waveshare.com/pico-lora-sx1262-868m.htm)
+   *  [alt RFM95 LoRA  - (optional)]()
+   *  [alt LoRa E5  - (optional)]()
 ## present state
  * ✅ ~sensor firmware~
  * ✅ ~bench verify hardware~
