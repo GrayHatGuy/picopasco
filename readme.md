@@ -37,15 +37,15 @@ includes temperature, humidity, co2, and volatile organic chemical (voc) sensors
     * quiescent (sensor only) - 0.25 W 
     * maximum (All valves open with sensors) - 4.00 W
   * #### requirements 
-    * ##### Supply
-      * **on grid:** ac to 5v transformer 5 watts
-      * **off grid** Solar battery bank approximate 15watts/15000 mah
+    * ##### supply
+      * **on grid:** ac to 5 volts transformer 5 W
+      * **off grid** solar battery bank approximate 15 W >=15000 mah
 ## libs:
  *  [sgp30 gas sensor](https://github.com/Seeed-Studio/SGP30_Gas_Sensor)
  *  [sht4x temp/rh](https://www.arduinolibraries.info/libraries/sensirion-i2-c-sht4x)
 ## parts: 
   ### minimum required
-   *  [rp2040 pico  - (pico W optional)](https://www.raspberrypi.com/products/raspberry-pi-pico/)
+   *  [rp2040 pico  - (pico w optional)](https://www.raspberrypi.com/products/raspberry-pi-pico/)
    *  [grovw aht4x temp/rh](https://www.seeedstudio.com/Grove-Temp-Humi-Sensor-SHT40-p-5384.html?queryID=79f54ab791e4345a5bd143b2f1674b74&objectID=5384&indexName=bazaar_retailer_products)
    *  [grove sgp30 voc/co2](https://www.seeedstudio.com/Grove-VOC-and-eCO2-Gas-Sensor-for-Arduino-SGP30.html?queryID=f5af88e62b89603f700a72fc7083e746&objectID=127&indexName=bazaar_retailer_products)
   queryID=8f8a40002a96e9bcb9aad1275f9a6cad&objectID=1678&indexName=bazaar_retailer_products)
