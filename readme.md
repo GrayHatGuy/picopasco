@@ -61,8 +61,10 @@ includes temperature, humidity, co2, and volatile organic chemical (voc) sensors
 
   -  [5 volt solenoid valves 4x](https://www.amazon.com/dp/B07WR9CSNQ)
   -  [sx1262 lora(wan) raspberry pi pico hat](https://www.waveshare.com/pico-lora-sx1262-868m.htm)
-  -  [alt rfm95 lora p2p]()
-  -  [alt lorae5 lorawan)]()
+  ### future upgrade: 
+  -  [rfm95 lora p2p]()
+  -  [lorae5 lorawan)]()
+  -  wifi/bt/mqtt
 ## status
  * ✅ ~sensor firmware~
  * ✅ ~bench verify hardware~
