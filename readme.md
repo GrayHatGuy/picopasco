@@ -34,12 +34,12 @@ includes temperature, humidity, co2, and volatile organic chemical (voc) sensors
 
 - ### power
   * #### specifications
-    * quiescent (sensor only) - 0.25 W 
-    * maximum (All valves open with sensors) - 4.00 W
+    * quiescent (sensor only) - 0.25 watt 
+    * maximum (All valves open with sensors) - 4.00 watts
   * #### requirements 
     * ##### supply
-      * **on grid:** ac to 5 volts transformer 5 W
-      * **off grid** solar battery bank approximate 15 W >=15000 mah
+      * **on grid:** ac to 5 volts transformer 5 watts
+      * **off grid** solar battery bank approximate 15 watts >=15000 mah
 ## libs:
  *  [sgp30 gas sensor](https://github.com/Seeed-Studio/SGP30_Gas_Sensor)
  *  [sht4x temp/rh](https://www.arduinolibraries.info/libraries/sensirion-i2-c-sht4x)
@@ -68,12 +68,12 @@ includes temperature, humidity, co2, and volatile organic chemical (voc) sensors
  * ✅ ~relay trigger firmware (mixing)~
  * ✅ ~integrate sensor and mixing code (See V3.0+)~ 
  * ✅ ~platformio and arduino compatible~
- * ✅ ~add pH sensor~
+ * ✅ ~pH sensor~
 ## future state
  * ### vids
     *  example of runtime [firmware output](https://www.youtube.com/watch?v=9E_uXJ-so4A&feature=youtu.be)
     *  testing minimum [response time of relays](https://youtu.be/YmTmU25x0V8). Found 3 ms is the mininum otherwise they fail to mechanically actuate.
-    *  [max power consumed](https://youtube.com/shorts/H6yiRs7PBLs?feature=share) 350 mA @ 5V [1.5W] during dry pump cycling.
+    *  [max power consumed](https://youtube.com/shorts/H6yiRs7PBLs?feature=share) 350 ma @ 5 volts [1.5 watt] during dry pump cycling.
     *  [initial power on test](https://youtu.be/p2OLT5P7gyc) failed to stop pumping due to a partial vacuum build up induced syphoning effect. 
  *  ### controls
     *  +pid relay mix control tds/ec and pH - _dev code in process_
