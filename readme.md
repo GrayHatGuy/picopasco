@@ -64,30 +64,30 @@ includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors
  * ✅ ~integrate sensor and mixing code (See V3.0+)~ 
  * ✅ ~platformio and arduino compatible~
 ## future state
- * vids
+ * ### vids
     *  Example of runtime [ _**firmware output**_](https://www.youtube.com/watch?v=9E_uXJ-so4A&feature=youtu.be)
     *  Testing minimum [response time of relays](https://youtu.be/YmTmU25x0V8). Found 3 ms is the mininum otherwise they fail to mechanically actuate.
     *  [Max power consumed](https://youtube.com/shorts/H6yiRs7PBLs?feature=share) 350 mA @ 5V [1.5W] during dry pump cycling.
     *  [Initial power on test](https://youtu.be/p2OLT5P7gyc) failed to stop pumping due to a partial vacuum build up induced syphoning effect. Need to consider pump          water level and tubing length to mitigate issue.
- *  controls
+ *  ### controls
     *  +low cost pH sensor - _$30 passes smoke test_
     *  +pid relay mix control tds/ec and pH - _dev code in process_
     *  lighting timers
     *  hvac triggers pid control
- *  connectivity   
+ *  ### connectivity   
     *  wifi 
     *  +lora(wan) - _boot check pass - Waveshare SX1262 header piggyback (changed GPIO20 conflict with relay trigger)_
     *  mqtt
- *  ui 
+ *  ### ui 
     * local wifi/bt  
     * remote mobile app
- *  portability  
+ *  ### portability  
     *  alternate MCUs
         -  xiao
         -  esp32
         -  wioterm
     * platformio build/flash verify
- *  picts
+ *  ### picts
 
     - ***current state*** sensors 7x and relay/pumps 4x (dry fit) 
    ![image](https://github.com/GrayHatGuy/picopasco/blob/5828d865b027139c95d328c9270929ebe838d00b/picts/present_state_relayX4_sensorsX7.jpeg)
