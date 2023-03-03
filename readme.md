@@ -77,11 +77,6 @@ includes temperature, humidity, co2, and volatile organic chemical (voc) sensors
  * [ ] sx1262 lora/wan 
  * [ ] wifi/bt/mqtt
 ## plan 
- * ### vids
-    *  example of runtime [firmware output](https://www.youtube.com/watch?v=9E_uXJ-so4A&feature=youtu.be)
-    *  testing minimum [response time of relays](https://youtu.be/YmTmU25x0V8). 3 ms is the mininum trigger dwell otherwise relays fail to actuate mechanically.
-    *  [max power consumed](https://youtube.com/shorts/H6yiRs7PBLs?feature=share) 350 ma @ 5 volts [1.5 watt] during dry pump cycling.
-    *  [initial power on test](https://youtu.be/p2OLT5P7gyc) failed to stop pumping due to a partial vacuum build up induced syphoning effect. 
  *  ### controls
     *  +pid relay mix control tds/ec and pH -> _dev pid controller code in process_
     *  lighting timers
@@ -100,6 +95,12 @@ includes temperature, humidity, co2, and volatile organic chemical (voc) sensors
         -  wioterm
     * platformio build/flash verify
  *  ### picts
+    *   ...
+ *  ### vids
+    *  example of runtime [firmware output](https://www.youtube.com/watch?v=9E_uXJ-so4A&feature=youtu.be)
+    *  testing minimum [response time of relays](https://youtu.be/YmTmU25x0V8). 3 ms is the mininum trigger dwell otherwise relays fail to actuate mechanically.
+    *  [max power consumed](https://youtube.com/shorts/H6yiRs7PBLs?feature=share) 350 ma @ 5 volts [1.5 watt] during dry pump cycling.
+    *  [initial power on test](https://youtu.be/p2OLT5P7gyc) failed to stop pumping due to a partial vacuum build up induced syphoning effect. 
 
     - ***current state*** sensors 7x and relay/pumps 4x (dry fit) 
    ![image](https://github.com/GrayHatGuy/picopasco/blob/5828d865b027139c95d328c9270929ebe838d00b/picts/present_state_relayX4_sensorsX7.jpeg)
