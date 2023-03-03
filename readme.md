@@ -52,15 +52,16 @@ includes temperature, humidity, co2, and volatile organic chemical (voc) sensors
    *  [water quality tds/ec ](https://www.amazon.com/dp/B08DGLY3J2)
    *  [pH sensor](https://www.amazon.com/GAOHOU-PH0-14-Detect-Electrode-Arduino/dp/B0799BXMVJ)
    *  [relays 5 volt spdt - 4x bank](https://www.amazon.com/dp/B098DWS168)
-  ### optional items:
-   *  [5 volt pumps 4xX](https://www.amazon.com/Gikfun-2-5V-6V-Submersible-Silicone-EK1374/dp/B0957BS936/)
-   *  [grove soil moisture -_(optional)](https://www.seeedstudio.com/Grove-Moisture-Sensor.html?
-   *  [rp2040 grove breakout - (optional))](https://www.digikey.com/en/products/detail/seeed-technology-co.,-ltd/103100142/13688265)
+   *  [5 volt pumps 4x - (alt solenoid option)](https://www.amazon.com/Gikfun-2-5V-6V-Submersible-Silicone-EK1374/dp/B0957BS936/)
+    ### optional items:
+ 
+     *  [grove soil moisture](https://www.seeedstudio.com/Grove-Moisture-Sensor.html?)
+     *  [rp2040 grove breakout](https://www.digikey.com/en/products/detail/seeed-technology-co.,-ltd/103100142/13688265)
 
-   *  [5 volt solenoid valves 4x - (optional)](https://www.amazon.com/dp/B07WR9CSNQ)
-   *  [SX1262 LoRaWAN raspberry pi pico hat waveshare - (optional)](https://www.waveshare.com/pico-lora-sx1262-868m.htm)
-   *  [alt rfm95 lora p2p  - (optional)]()
-   *  [alt lorae5 lorawan  - (optional)]()
+     *  [5 volt solenoid valves 4x](https://www.amazon.com/dp/B07WR9CSNQ)
+     *  [SX1262 LoRaWAN raspberry pi pico hat waveshare](https://www.waveshare.com/pico-lora-sx1262-868m.htm)
+     *  [alt rfm95 lora p2p]()
+     *  [alt lorae5 lorawan)]()
 ## present state
  * ✅ ~sensor firmware~
  * ✅ ~bench verify hardware~
