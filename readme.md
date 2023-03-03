@@ -45,13 +45,13 @@ includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors
  *  [SHT4x TempRH](https://www.arduinolibraries.info/libraries/sensirion-i2-c-sht4x)
 ## parts: 
   ### minimum required
-   *  [RP2040 pico  - (pico W optional)](https://www.raspberrypi.com/products/raspberry-pi-pico/)
-   *  [Grove SHT4x Temp/RH](https://www.seeedstudio.com/Grove-Temp-Humi-Sensor-SHT40-p-5384.html?queryID=79f54ab791e4345a5bd143b2f1674b74&objectID=5384&indexName=bazaar_retailer_products)
-   *  [Grove SGP30 VOC/CO2](https://www.seeedstudio.com/Grove-VOC-and-eCO2-Gas-Sensor-for-Arduino-SGP30.html?queryID=f5af88e62b89603f700a72fc7083e746&objectID=127&indexName=bazaar_retailer_products)
+   *  [rp2040 pico  - (pico W optional)](https://www.raspberrypi.com/products/raspberry-pi-pico/)
+   *  [grovw aht4x temp/rh](https://www.seeedstudio.com/Grove-Temp-Humi-Sensor-SHT40-p-5384.html?queryID=79f54ab791e4345a5bd143b2f1674b74&objectID=5384&indexName=bazaar_retailer_products)
+   *  [grove sgp30 voc/co2](https://www.seeedstudio.com/Grove-VOC-and-eCO2-Gas-Sensor-for-Arduino-SGP30.html?queryID=f5af88e62b89603f700a72fc7083e746&objectID=127&indexName=bazaar_retailer_products)
   queryID=8f8a40002a96e9bcb9aad1275f9a6cad&objectID=1678&indexName=bazaar_retailer_products)
    *  [Water quality TDS/EC ](https://www.amazon.com/dp/B08DGLY3J2)
    *  [pH sensor](https://www.amazon.com/GAOHOU-PH0-14-Detect-Electrode-Arduino/dp/B0799BXMVJ)
-   *  [Relays 5V SPST - 4X bank](https://www.amazon.com/dp/B098DWS168)
+   *  [relays 5V SPST - 4X bank](https://www.amazon.com/dp/B098DWS168)
   ### optional items:
    *  [5V pumps 4X](https://www.amazon.com/Gikfun-2-5V-6V-Submersible-Silicone-EK1374/dp/B0957BS936/)
    *  [Grove Soil Moisture -_(optional)](https://www.seeedstudio.com/Grove-Moisture-Sensor.html?
@@ -68,14 +68,14 @@ includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors
  * ✅ ~relay trigger firmware (mixing)~
  * ✅ ~integrate sensor and mixing code (See V3.0+)~ 
  * ✅ ~platformio and arduino compatible~
+ * ✅ ~add pH sensor~
 ## future state
  * ### vids
-    *  Example of runtime [firmware output](https://www.youtube.com/watch?v=9E_uXJ-so4A&feature=youtu.be)
-    *  Testing minimum [response time of relays](https://youtu.be/YmTmU25x0V8). Found 3 ms is the mininum otherwise they fail to mechanically actuate.
-    *  [Max power consumed](https://youtube.com/shorts/H6yiRs7PBLs?feature=share) 350 mA @ 5V [1.5W] during dry pump cycling.
-    *  [Initial power on test](https://youtu.be/p2OLT5P7gyc) failed to stop pumping due to a partial vacuum build up induced syphoning effect. Need to consider pump          water level and tubing length to mitigate issue.
+    *  example of runtime [firmware output](https://www.youtube.com/watch?v=9E_uXJ-so4A&feature=youtu.be)
+    *  testing minimum [response time of relays](https://youtu.be/YmTmU25x0V8). Found 3 ms is the mininum otherwise they fail to mechanically actuate.
+    *  [max power consumed](https://youtube.com/shorts/H6yiRs7PBLs?feature=share) 350 mA @ 5V [1.5W] during dry pump cycling.
+    *  [initial power on test](https://youtu.be/p2OLT5P7gyc) failed to stop pumping due to a partial vacuum build up induced syphoning effect. 
  *  ### controls
-    *  +low cost pH sensor - _$30 passes smoke test_
     *  +pid relay mix control tds/ec and pH - _dev code in process_
     *  lighting timers
     *  hvac triggers pid control
@@ -87,7 +87,7 @@ includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors
     * local wifi/bt  
     * remote mobile app
  *  ### portability  
-    *  alternate MCUs
+    *  alternate mcu
         -  xiao
         -  esp32
         -  wioterm
@@ -96,7 +96,7 @@ includes temperature, humidity, C02, and volatile organic chemical (VOC) sensors
 
     - ***current state*** sensors 7x and relay/pumps 4x (dry fit) 
    ![image](https://github.com/GrayHatGuy/picopasco/blob/5828d865b027139c95d328c9270929ebe838d00b/picts/present_state_relayX4_sensorsX7.jpeg)
-    - ***future state*** upgrade 4+ relays and additional sensors. add triggers for heating or humidifying. add pH and pid control. 
+    - ***future state*** upgrade 4+ relays and additional sensors. add triggers for heating or humidifying.
     ![image](https://github.com/GrayHatGuy/picopasco/blob/a89c131b6d9dfd96e4c88eb03be09111bf86e8a9/picts/future_state_upgrades_relay8X_sensors7X_Heat_Humidity_relayunused2X.jpeg)
 
  
