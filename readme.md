@@ -1,10 +1,11 @@
 ## picopasco
 
- *- to feed oneself with small portions*
+  #### *- to feed oneself with small portions*
 
+ ## description
 sensor monitor and control hardware/firmware for a personal economical and scalable grow system using a RaspberryPi pico RP2040 and standard off the shelf sensors and components. 
 
-   **_present state includes nutrient mixing capabilities and the following sensors._**
+#### **present state** _includes nutrient mixing capabilities and monitor of the following sensors._**
  *  air temp
  *  water temp
  *  humidity
