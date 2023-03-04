@@ -94,7 +94,7 @@ includes temperature, humidity, co2, and volatile organic chemical (voc) sensors
         -  wioterm
     * platformio build/flash verify
 *  ### vids
-    *  example of runtime [firmware output](https://www.youtube.com/watch?v=9E_uXJ-so4A&feature=youtu.be) ++update firmware ph video
+    *  example of runtime [firmware output](https://youtu.be/fia2N3TB2j8)
     *  testing minimum [response time of relays](https://youtu.be/YmTmU25x0V8). 3 ms is the mininum trigger dwell otherwise relays fail to actuate mechanically.
     *  [max power consumed](https://youtube.com/shorts/H6yiRs7PBLs?feature=share) 350 ma @ 5 volts [1.5 watt] during dry pump cycling.
     *  [initial power on test](https://youtu.be/p2OLT5P7gyc) failed to stop pumping due to a partial vacuum build up induced syphoning effect. 
