@@ -17,7 +17,7 @@ _includes nutrient mixing capabilities and monitor of the following sensors._
  *  ec
  *  pH 
   
-   **_see [vids](https://github.com/GrayHatGuy/picopasco/blob/main/readme.md#vids) and [picts](https://github.com/GrayHatGuy/picopasco/blob/main/readme.md#picts)     for more details._**
+   **_see [vids](https://github.com/GrayHatGuy/picopasco/blob/main/readme.md#vids) and [picts](https://github.com/GrayHatGuy/picopasco/blob/main/readme.md#picts)     for more details._** 
   
 ## wiring diagram:
  ![image](https://github.com/GrayHatGuy/picopasco/blob/25a02a05b4e160a8b521379950dd38b4c0e63f31/repo_full%20picopasco%20wire.png?raw=true)
@@ -74,7 +74,7 @@ includes temperature, humidity, co2, and volatile organic chemical (voc) sensors
  * ✅ ~platformio and arduino compatible~
  * ✅ ~pH sensor~
  * [ ] pid control mix to target setpoint pH/tds/ec - [_firmware in process_](https://github.com/GrayHatGuy/picopasco/tree/2bdc89169fcf1709cf48569881d38e65c02e824f/dev/picopasco-main-V4.3597447222071-alpha-hartree-pid)
- * [ ] sx1262 lora/wan 
+ * [ ] sx1262 lora/wan - [_bench testing_]() ++add picture
  * [ ] wifi/bt/mqtt
 ## plan 
  *  ### controls
@@ -95,7 +95,7 @@ includes temperature, humidity, co2, and volatile organic chemical (voc) sensors
         -  wioterm
     * platformio build/flash verify
 *  ### vids
-    *  example of runtime [firmware output](https://www.youtube.com/watch?v=9E_uXJ-so4A&feature=youtu.be)
+    *  example of runtime [firmware output](https://www.youtube.com/watch?v=9E_uXJ-so4A&feature=youtu.be) ++update firmware ph video
     *  testing minimum [response time of relays](https://youtu.be/YmTmU25x0V8). 3 ms is the mininum trigger dwell otherwise relays fail to actuate mechanically.
     *  [max power consumed](https://youtube.com/shorts/H6yiRs7PBLs?feature=share) 350 ma @ 5 volts [1.5 watt] during dry pump cycling.
     *  [initial power on test](https://youtu.be/p2OLT5P7gyc) failed to stop pumping due to a partial vacuum build up induced syphoning effect. 
