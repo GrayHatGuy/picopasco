@@ -73,7 +73,7 @@ includes temperature, humidity, co2, and volatile organic chemical (voc) sensors
  * ✅ ~integrate sensor and mixing code (See V3.0+)~ 
  * ✅ ~platformio and arduino compatible~
  * ✅ ~pH sensor~
- * [ ] pid control mix to target setpoint pH/tds/ec
+ * [ ] pid control mix to target setpoint pH/tds/ec - [_firmware in process_](https://github.com/GrayHatGuy/picopasco/tree/2bdc89169fcf1709cf48569881d38e65c02e824f/dev/picopasco-main-V4.3597447222071-alpha-hartree-pid)
  * [ ] sx1262 lora/wan 
  * [ ] wifi/bt/mqtt
 ## plan 
