@@ -47,13 +47,14 @@ includes temperature, humidity, co2, and volatile organic chemical (voc) sensors
 ## parts: 
   ### minimum required
   _(required by firmware design)_
-   *  [rp2040 pico  - (pico w optional)](https://www.raspberrypi.com/products/raspberry-pi-pico/)
-   *  [grove sht4x temp/rh](https://www.seeedstudio.com/Grove-Temp-Humi-Sensor-SHT40-p-5384.html)
-   *  [grove sgp30 voc/co2](https://www.seeedstudio.com/Grove-VOC-and-eCO2-Gas-Sensor-for-Arduino-SGP30.html)
-   *  [water quality tds/ec ](https://www.amazon.com/dp/B08DGLY3J2)
-   *  [pH sensor](https://www.amazon.com/GAOHOU-PH0-14-Detect-Electrode-Arduino/dp/B0799BXMVJ)
-   *  [relays 5 volt spdt - 4x bank](https://www.amazon.com/dp/B098DWS168)
-   *  [5 volt pumps 4x - (alt solenoid option)](https://www.amazon.com/Gikfun-2-5V-6V-Submersible-Silicone-EK1374/dp/B0957BS936/)
+   *  $6.00  [rp2040 pico  - (pico w optional)](https://www.raspberrypi.com/products/raspberry-pi-pico/)
+   *  $5.50  [grove sht4x temp/rh](https://www.seeedstudio.com/Grove-Temp-Humi-Sensor-SHT40-p-5384.html)
+   *  $17.50 [grove sgp30 voc/co2](https://www.seeedstudio.com/Grove-VOC-and-eCO2-Gas-Sensor-for-Arduino-SGP30.html)
+   *  $14.00 [water quality tds/ec ](https://www.amazon.com/dp/B08DGLY3J2)
+   *  $34.99 [pH sensor](https://www.amazon.com/GAOHOU-PH0-14-Detect-Electrode-Arduino/dp/B0799BXMVJ)
+   *  $7.99  [relays 5 volt spdt - 4x bank](https://www.amazon.com/dp/B098DWS168)
+   *  $12.98 [5 volt pumps 4x - (alt solenoid option)](https://www.amazon.com/Gikfun-2-5V-6V-Submersible-Silicone-EK1374/dp/B0957BS936/)
+  #### Total cost of materials: $98.96
   ### optional items: 
   _(intended by firmware design but not required)_
   -  [grove soil moisture](https://www.seeedstudio.com/Grove-Moisture-Sensor.html?)
