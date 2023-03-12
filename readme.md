@@ -26,8 +26,8 @@ _includes nutrient mixing capabilities and monitor of the following sensors._
 four liquid reservoirs using relay triggered solenoid valves for mixing water with up to three nutrients.  User inputs nutrient tank capacity, target EC/TDS, nutrient mix ratios, and mixt interval then the system automatically mixes and fills the tank. Mix may also be triggered externally for point of use.
 - ### water quality
 The tds/ec sensor can be used as a continuous monitor to ensure the water quality is within the target range and compensate for drift by adding water or nutrients.  
-- ### irrigation*
-moisture sensor monitors the grow media and can trigger irrigation. The nutrient mix can then be used to irrigate multiple grow mediums like hydroponic, aquaponic, or terrestial systems. 
+- ### irrigation
+moisture sensor monitors the grow media and can trigger irrigation. The nutrient mix can then be used to irrigate multiple grow mediums like hydroponic, aquaponic, or terrestial systems. See [picopasco-water](https://github.com/GrayHatGuy/picopasco-water) for controlling irrigation based on moisture sensor feedback.
 - ### air quality*
 includes temperature, humidity, co2, and volatile organic chemical (voc) sensors.
 
