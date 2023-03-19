@@ -1,6 +1,6 @@
 ## picopasco
 
-  #### *- to feed oneself with small portions*
+  #### *- to feed oneself a little bit*
 
  ## description
 sensor monitor and control hardware/firmware for a personal economical and scalable grow system using a raspberrypi pico and standard off the shelf sensors and components. 
