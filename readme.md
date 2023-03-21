@@ -12,7 +12,7 @@ _includes nutrient mixing capabilities and monitor of the following sensors._
  *  humidity
  *  volatile organic compounds
  *  carbon dioxide
- *  soil moisture
+ *  soil moisture - [see irrigation](https://github.com/GrayHatGuy/picopasco/blob/main/readme.md#irrigation)
  *  tds
  *  ec
  *  pH 
