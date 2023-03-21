@@ -97,7 +97,9 @@ includes temperature, humidity, co2, and volatile organic chemical (voc) sensors
     *  example of runtime [firmware output](https://youtu.be/fia2N3TB2j8)
     *  testing minimum [response time of relays](https://youtu.be/YmTmU25x0V8). 3 ms is the mininum trigger dwell otherwise relays fail to actuate mechanically.
     *  [max power consumed](https://youtube.com/shorts/H6yiRs7PBLs?feature=share) 350 ma @ 5 volts [1.5 watt] during dry pump cycling.
-    *  [initial power on test](https://youtu.be/p2OLT5P7gyc) failed to stop pumping due to a partial vacuum build up induced syphoning effect. Resolved with shorter tubes and          less elevation head. May need to add solenoid shut off valve.
+    *  [initial power on test](https://youtu.be/p2OLT5P7gyc) failed to stop pumping due to a partial vacuum build up induced syphoning effect. 
+        - solved with shorter tube length and shorter elevation head.
+        - optional adding solenoid shut off valve in <OR> with pump SPST relay NO trigger will provide a failsafe engineering control.
 * ### [picts](https://github.com/GrayHatGuy/picopasco/tree/ca9e4c73baeb89e9fcb9bd323aaa8c2fb0ac0a06/picts)
  
 ##### _If you are interested in contributing or participating in this project contact_ GrayHatGuy@GrayHatGuy.com
