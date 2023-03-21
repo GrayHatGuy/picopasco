@@ -74,7 +74,7 @@ includes temperature, humidity, co2, and volatile organic chemical (voc) sensors
  * ✅ ~platformio and arduino compatible~
  * ✅ ~pH sensor~
  * [ ] pid control mix to target setpoint pH/tds/ec - [_firmware in process_](https://github.com/GrayHatGuy/picopasco/tree/2bdc89169fcf1709cf48569881d38e65c02e824f/dev/picopasco-main-V4.3597447222071-alpha-hartree-pid)
- * [ ] sx1262 lora/wan - [_bench testing_]() gpio20 conflict with relay ++add picture
+ * [ ] sx1262 lora/wan - [_bench testing_]() gpio20 conflict with relay changed to 15,16,17,18 v4.0
  * [ ] wifi/bt/mqtt
 ## plan 
  *  ### controls
