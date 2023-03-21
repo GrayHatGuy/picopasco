@@ -99,7 +99,7 @@ includes temperature, humidity, co2, and volatile organic chemical (voc) sensors
     *  [max power consumed](https://youtube.com/shorts/H6yiRs7PBLs?feature=share) 350 ma @ 5 volts [1.5 watt] during dry pump cycling.
     *  [initial power on test](https://youtu.be/p2OLT5P7gyc) failed to stop pumping due to a partial vacuum build up induced syphoning effect. 
         - solved with shorter tube length and shorter elevation head.
-        - optional [solenoid shut off valve](https://github.com/GrayHatGuy/picopasco/blob/main/readme.md#optional) in ```<OR>``` with pump SPST relay NO trigger will provide a failsafe engineering control.
+        - optional [solenoid shut off valve](https://github.com/GrayHatGuy/picopasco/blob/main/readme.md#optional) in ```<AND>``` with pump SPST relay NO trigger will provide a failsafe engineering control.
 * ### [picts](https://github.com/GrayHatGuy/picopasco/tree/ca9e4c73baeb89e9fcb9bd323aaa8c2fb0ac0a06/picts)
  
 ##### _If you are interested in contributing or participating in this project contact_ GrayHatGuy@GrayHatGuy.com
